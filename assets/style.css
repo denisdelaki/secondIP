@@ -17,3 +17,16 @@
   list-style: none;
   font-size: 30px;
 }
+/*styling of the header */
+#section1 > .heading > .heading1 > h1 {
+  color: yellow;
+  font-size: 80px;
+  margin-top: -70px;
+  margin-left: -80px;
+}
+/*styling of the paragraph in the header*/
+#section1 > .heading > .heading1 > p {
+  font-size: 30px;
+  color: rgb(215, 219, 223);
+  margin-left: -80px;
+}
