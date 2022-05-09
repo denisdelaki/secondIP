@@ -34,10 +34,18 @@
 #section2 > .sectiontwo {
   display: flex;
   gap: 200px;
+  background-color: white;
 }
 #section2 > .sectiontwo > .sec2img {
   margin-top: 100px;
 }
 #section2 > .sectiontwo > .sec2div {
   margin-top: 200px;
+}
+#section2 > .sectiontwo > .sec2div > h1 {
+  font-size: 50px;
+}
+#section2 > .sectiontwo > .sec2div > p {
+  color: rgb(93, 96, 97);
+  font-size: 20px;
 }
