@@ -1,0 +1,19 @@
+/* index.html styling properies*/
+/*The styling of the first section*/
+#section1 > .heading {
+  background-image: url(../assets/images/moving\ 1.png);
+  background-size: 100% 100%;
+  padding: 250px;
+}
+/*styling properties of the unordered list*/
+#section1 > .heading > .navig > ul {
+  display: flex;
+  color: white;
+  float: right;
+  margin-top: -70px;
+}
+#section1 > .heading > .navig > ul > li {
+  margin-right: 20px;
+  list-style: none;
+  font-size: 30px;
+}
