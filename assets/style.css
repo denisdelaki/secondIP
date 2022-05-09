@@ -81,3 +81,15 @@
 #section3 > .sec3img > div > img {
   padding: 30px;
 }
+/* footer styling */
+#footer {
+  background-color: black;
+}
+#footer > .tapfoot {
+  font-size: 30px;
+  color: white;
+}
+/*span the header and color the span */
+#footer > .tapfoot > h1 > span {
+  color: chocolate;
+}
