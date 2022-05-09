@@ -69,4 +69,15 @@
     rgba(61, 55, 5, 1) 66%,
     rgba(0, 0, 0, 1) 100%
   );
+  /*this is section 3 scripting properties*/
+}
+#section3 {
+  background-color: rgb(248, 244, 244);
+}
+#section3 > .topmov {
+  font-size: 40px;
+  margin-left: 50px;
+}
+#section3 > .sec3img > div > img {
+  padding: 30px;
 }
