@@ -49,3 +49,24 @@
   color: rgb(93, 96, 97);
   font-size: 20px;
 }
+#section2 > .sectiontwo > .sec2div > a {
+  color: yellow;
+  background-color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+#section2 > .sectiontwo > .sec2div > .fa-arrow-right-long {
+  margin-top: 1px;
+  margin-left: 2px;
+}
+.strip {
+  height: 5px;
+  width: 300px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 172, 18, 1) 0%,
+    rgba(121, 110, 9, 1) 36%,
+    rgba(61, 55, 5, 1) 66%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
