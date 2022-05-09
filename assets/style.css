@@ -74,9 +74,14 @@
 #section3 {
   background-color: rgb(248, 244, 244);
 }
+#section3 > .strip {
+  margin-top: 50px;
+  margin-left: 50px;
+}
 #section3 > .topmov {
   font-size: 40px;
   margin-left: 50px;
+  margin-top: -50px;
 }
 #section3 > .sec3img > div > img {
   padding: 30px;
@@ -92,4 +97,16 @@
 /*span the header and color the span */
 #footer > .tapfoot > h1 > span {
   color: chocolate;
+}
+#footer > div {
+  display: flex;
+}
+#footer > div > .columpages {
+  min-width: 25%;
+}
+#footer > div > .columpages > h4 {
+  color: white;
+}
+#footer > div > .columpages > p {
+  color: rgb(189, 192, 194);
 }
