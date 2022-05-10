@@ -17,6 +17,28 @@
   list-style: none;
   font-size: 30px;
 }
+/*style the buttons with the background color*/
+#section1 > .heading > .navig > ul .button1 {
+  color: black;
+  background-color: yellow;
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+  padding: 5px 20px 5px 20px;
+  margin-top: -5px;
+}
+#section1 > .heading > .navig > ul .button2 {
+  color: yellow;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+  margin: 20px;
+  padding: 5px 20px 5px 20px;
+  margin-top: -5px;
+}
+.heading1 {
+  margin-top: 40px;
+}
 /*styling of the header */
 #section1 > .heading > .heading1 > h1 {
   color: yellow;
@@ -93,7 +115,8 @@
   width: 400px;
   background-color: white;
   margin: 10px 30px 20px 40px;
-  box-shadow: 0px 5px 10px grey;
+  box-shadow: 0px 3px 10px 0px grey;
+  border-radius: 20px;
 }
 .icons {
   margin-top: -17px;
