@@ -247,3 +247,36 @@ th {
   margin-bottom: 30px;
   width: fit-content;
 }
+.features {
+  height: 500px;
+  width: 800px;
+  border: 1px solid white;
+  box-shadow: 0px 1px 15px 0px;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.h5 {
+  margin: 10px 0px 0px 25px;
+}
+.h5 > h5 {
+  font-size: 40px;
+  margin-left: 10px;
+  font-weight: lighter;
+}
+.circle {
+  display: flex;
+}
+.circle > div {
+  padding: 30px;
+}
+.circle > div > p > .fa-solid {
+  color: black;
+}
+circle > div > p > .fa-solid > .fa-circle-check {
+  color: rgb(243, 243, 16);
+}
+.circle > div > .fa-circle-check > p {
+  color: black;
+  font-size: 15px;
+}
